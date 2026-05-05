@@ -13,6 +13,7 @@ PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 
 IG_USER_ID="35258367130476837"
 FB_PAGE_ID="61585782878792"
+FB_ACCESS_TOKEN="EAAXsSIZAz6NUBRUGZAwfxDwhpbeLZAmN9pDdApzvy7ZA5vjhvUnqkVo4XnUTtFlXxjvvtlsw72nGkOBe71uuZByYpGkJmGhr3ZCTHT6M8ZAxgkAQUVtphNtUwQqUjecM3P7hPbhGjd58TmNHktNu8TnZAZAj4745JG4wgeoBFeTZCDEO5tFZCt2VoWQerAR8YSlEdYBTotntNokBxXZAHC6gQ2ZCHZCjokUJPQhVOabwZDZD"
 GITHUB_RAW="https://raw.githubusercontent.com/T3chj3ff/franchise-underworld-assets/main/PRODUCTION_SPRINTS/assets"
 LOG="$PROJECT_ROOT/BUSINESS/logs/publish_log.txt"
 
@@ -69,11 +70,10 @@ post_facebook() {
   local day="$3"
 
   echo "📘 [DAY $day] Facebook: posting..."
-  $COMPOSIO execute FACEBOOK_POST_IMAGE_TO_PAGE -d "{
-    \"page_id\": \"$FB_PAGE_ID\",
-    \"image_url\": \"$image_url\",
-    \"caption\": \"$caption\"
-  }" 2>/dev/null | grep -E '"id"|"error"'
+  curl -s -X POST "https://graph.facebook.com/v19.0/${FB_PAGE_ID}/photos" \
+    --data-urlencode "url=${image_url}" \
+    --data-urlencode "message=${caption}" \
+    --data-urlencode "access_token=${FB_ACCESS_TOKEN}" | grep -E '"id"|"error"'
   echo "✅ [DAY $day] Facebook posted. $(date)" | tee -a "$LOG"
 }
 
