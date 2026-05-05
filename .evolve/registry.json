@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "domain": "Franchise Underworld - Cross-Department Autonomy, SEO, & Hallucination Defense",
+  "baseline": {
+    "seo_hashtag_density": "2-3 generic tags per post (low discovery)",
+    "hallucination_prevention": "Manual QA gate only, no proactive negative prompting",
+    "department_autonomy": "Siloed (Marketing, Art, and Lore require manual bridging)"
+  },
+  "experiments": [],
+  "adaptations_applied": [],
+  "cycle_count": 0,
+  "last_run": null
+}

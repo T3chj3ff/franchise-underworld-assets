@@ -23,6 +23,9 @@ mkdir -p "$PROJECT_ROOT/BUSINESS/logs"
 run_qa() {
   local local_path="$1"
   local caption="$2"
+  if [[ $(echo "$caption" | grep -o "#" | wc -l) -lt 3 ]]; then
+    caption="$caption\n\n#FranchiseUnderworld #CyberpunkNoir #IndieComics #SciFiArt"
+  fi
   local day="$3"
 
   if [ -n "$local_path" ] && [ -f "$local_path" ]; then
@@ -41,6 +44,9 @@ run_qa() {
 post_instagram() {
   local image_url="$1"
   local caption="$2"
+  if [[ $(echo "$caption" | grep -o "#" | wc -l) -lt 3 ]]; then
+    caption="$caption\n\n#FranchiseUnderworld #CyberpunkNoir #IndieComics #SciFiArt"
+  fi
   local day="$3"
 
   echo "📸 [DAY $day] Instagram: creating container..."
@@ -67,6 +73,9 @@ post_instagram() {
 post_facebook() {
   local image_url="$1"
   local caption="$2"
+  if [[ $(echo "$caption" | grep -o "#" | wc -l) -lt 3 ]]; then
+    caption="$caption\n\n#FranchiseUnderworld #CyberpunkNoir #IndieComics #SciFiArt"
+  fi
   local day="$3"
 
   echo "📘 [DAY $day] Facebook: posting..."
@@ -81,6 +90,9 @@ post_facebook() {
 post_all() {
   local image_url="$1"
   local caption="$2"
+  if [[ $(echo "$caption" | grep -o "#" | wc -l) -lt 3 ]]; then
+    caption="$caption\n\n#FranchiseUnderworld #CyberpunkNoir #IndieComics #SciFiArt"
+  fi
   local day="$3"
   local local_path="$4"
 
