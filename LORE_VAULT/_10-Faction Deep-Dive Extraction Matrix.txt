@@ -1,0 +1,118 @@
+*10-Faction Deep-Dive Extraction Matrix
+To capture the exact trench reality you know so well from your years in the industry, these prompts are heavily tailored to the specific labor traumas, physical environments, and subcultures of each individual sector. 
+
+You can copy and paste these directly into NotebookLM, ChatGPT, or your deep-research AI, along with the relevant Reddit threads or forums for each sector.
+
+***
+
+# FRANCHISE UNDERWORLD: FACTION-SPECIFIC EXTRACTION MATRIX
+
+---
+
+### 1. The Grill Houses (Burger Empires)
+> **Real-World Archetypes (Late 90s):** McDonald's · Burger King · Wendy's
+> *McDonald's = the dominant empire (Golden Arches as government seals). Burger King = the eternal rival with looser brand discipline. Wendy's = the scrappy challenger with square patties as a political statement.*
+
+> **Role:** Labor archivist specializing in fast-food volume logistics and drive-thru mechanics.
+> **Task:** Analyze the provided texts to extract the hyper-specific reality of high-volume burger chains. 
+> **Focus:** I need the exact terminology and physical reality of the "Drive-Thru Timer" pressure. Extract stories about grease burns, the friction between hardened shift leads and disposable teenage labor, and the sociopathic enforcement of speed over safety. What does it actually feel like to work an intersection corner lot during a Friday night rush?
+> **Format:** A bulleted list of specific slang, common equipment failures (e.g., the shake machine), and 3 anecdotes highlighting the institutional absurdity of high-volume line assembly.
+
+---
+
+### 2. The Morning Order (24/7 Diners)
+> **Real-World Archetypes (Late 90s):** Denny's · Waffle House · IHOP
+> *Denny's = the flagship of the insomniac public, the Grand Slam as communion. Waffle House = the Southern institution that never closes for weather or war. IHOP = the family-chain layer with the illusion of variety hiding the same industrial pancake batter.*
+
+> **Role:** Night-shift anthropologist focusing on 24-hour diner culture.
+> **Task:** Mine these texts for the specific, trauma-bonded reality of the graveyard shift.
+> **Focus:** Extract the unwritten rules of dealing with the 3 AM public: drunks, third-shift workers, and cops. Detail the physical exhaustion of infinite coffee refills, the specific smell of the flat-top at 4 AM, and the unique, protective family dynamic that forms among overnight servers and line cooks when no upper management is around.
+> **Format:** A glossary of diner-specific shorthand and 3 summaries of incidents where the staff had to handle a chaotic public threat without relying on management.
+
+---
+
+### 3. The Slice Syndicates (Pizza Delivery Cartels)
+> **Real-World Archetypes (Late 90s):** Domino's · Pizza Hut · Little Caesars
+> *Domino's = the delivery empire built on "30 minutes or free" — speed as law (the policy was actually killed after a fatality lawsuit in 1993, which is PERFECT Franchise Underworld lore). Pizza Hut = the dine-in/delivery hybrid with the stuffed crust innovation as a weapon. Little Caesars = the "Hot-N-Ready" budget tier, cash-only energy.*
+
+> **Role:** Investigator of delivery logistics and mobile labor.
+> **Task:** Extract the gritty realities of the pizza delivery sector, both in the store and on the road.
+> **Focus:** I need the specific slang and hazards of delivery drivers: navigating dead zones, fake addresses, robberies, cash-drop protocols, and the wear-and-tear on personal vehicles. Inside the store, detail the friction between the "Route Rats" (drivers) and the "Oven Hands" (inside staff), and the physical toll of working next to a 500-degree oven in the summer.
+> **Format:** A list of driver codes/slang, a breakdown of the FOH/BOH tension specific to pizza, and 3 true stories of the dangers faced on a delivery route.
+
+---
+
+### 4. The Cream Parlors (Dessert / Ice Cream)
+> **Real-World Archetypes (Late 90s):** Dairy Queen · Baskin-Robbins · Carvel
+> *Dairy Queen = the dominant roadside empire with its Blizzard as the product of the decade. Baskin-Robbins = the 31-flavors mall presence, the birthday cake faction. Carvel = the regional Eastern institution with soft-serve as sacred text and Tom Carvel's voice on every radio ad.*
+
+> **Role:** Researcher analyzing suburban service dynamics and pristine corporate facades.
+> **Task:** Analyze the provided texts to expose the contrast between the wholesome, family-friendly front of an ice cream parlor and the sticky, miserable reality of the back.
+> **Focus:** Extract details on the physical toll of the job (e.g., severe wrist/forearm injuries from scooping frozen tubs). Document the specific brand of entitlement from suburban families ("Karen" culture), the dread of the summer rush, and the intense, freezing isolation of walk-in freezer inventory management. 
+> **Format:** A report contrasting the pristine customer-facing rules with the brutal physical reality of the labor, including specific injuries and customer friction points.
+
+---
+
+### 5. The Brew Councils (Coffee / Cafe)
+> **Real-World Archetypes (Late 90s):** Starbucks · Dunkin' Donuts · Gloria Jean's Coffees
+> *Starbucks = the expanding empire that changed the language (venti, grande — a new vocabulary as a power move). Dunkin' = the working-class counter-culture, the "regulah" as identity. Gloria Jean's = the mall-court coffeehouses that Starbucks buried — the faction that lost the franchise war.*
+
+> **Role:** Corporate data and morning-commute labor analyst.
+> **Task:** Extract the highly caffeinated, high-stress reality of corporate coffeehouses.
+> **Focus:** Mine the texts for the specific, passive-aggressive friction caused by hyper-customized orders and mobile-app rushes. Detail the mechanical reliance on the espresso machine (and the panic when it breaks), the culture of the "laptop locusts" (campers), and the toxic positivity enforced by corporate management against an exhausted, over-caffeinated staff.
+> **Format:** A list of barista-specific slang for difficult customers or bad orders, and 3 examples of the system breaking down during a peak morning commute rush.
+
+---
+
+### 6. The Fried Confederacy (Chicken / Southern)
+> **Real-World Archetypes (Late 90s):** KFC · Popeyes · Church's Chicken
+> *KFC = the Colonel as a religious patriarch, the Original Recipe as scripture. Popeyes = the Southern challenger with a distinct Cajun identity and a kitchen culture that runs deeper and hotter. Church's Chicken = the third-tier scrapper, operating in the neighborhoods no one else would touch, the forgotten faction.*
+
+> **Role:** Cultural archivist specializing in Southern kitchen dynamics and fryer lines.
+> **Task:** Extract the visceral, high-heat reality of working a dedicated fried chicken kitchen.
+> **Focus:** I need the exact details of the "Sunday Church Crowd" phenomenon—the absolute worst, most demanding shift of the week. Extract stories of brutal fryer burns ("baptisms"), the tension between traditional Southern cooking methods and corporate cost-cutting, and the specific racial or cultural demographics that dominate the BOH in these establishments. 
+> **Format:** A glossary of fryer-specific slang/hazards and a detailed breakdown of the psychological and physical damage of the Sunday post-church rush.
+
+---
+
+### 7. The Fresh Syndicate (Health / Salad / Wraps)
+> **Real-World Archetypes (Late 90s):** Subway · Quiznos · Schlotzsky's
+> *Subway = the "eat fresh" propaganda machine that made a sandwich assembly line feel like a wellness choice (the Jared era begins 2000 — right on the cusp, perfect for Lumenridge lore). Quiznos = the toasted-sub challenger with superior product and inferior infrastructure. Schlotzsky's = the regional Southwestern chain that believed in its own mythology a little too hard.*
+
+> **Role:** Investigator of corporate wellness facades and prep-kitchen labor.
+> **Task:** Expose the toxic reality hidden behind the "clean eating" and wellness branding.
+> **Focus:** Extract the massive, labor-intensive reality of prep work (endless chopping, slicing injuries, cross-contamination paranoia). Detail the specific arrogance and dietary demands of the affluent lunch crowd, and how management uses "wellness" rhetoric to mask terrible wages and sociopathic labor practices. 
+> **Format:** A report detailing the hypocrisy of the "clean" aesthetic versus the messy, exhausting prep labor, including 3 anecdotes of extreme customer entitlement.
+
+---
+
+### 8. The Brand House (Upscale Steak / Fine Dining)
+> **Real-World Archetypes (Late 90s):** Outback Steakhouse · Texas Roadhouse · Lone Star Steakhouse
+> *Outback = the "No Rules, Just Right" empire with the Bloomin' Onion as a power symbol, Australian theming as pure invented mythology. Texas Roadhouse = the peanut shells on the floor, the country music, the birthday line-dance — blue-collar aspiration at its peak. Lone Star = the scrappier regional competitor that captured the same market but never quite achieved the same cultural dominance; a faction on the decline.*
+
+> **Role:** Sociologist analyzing high-margin hospitality and rigid brigade systems.
+> **Task:** Mine these texts for the high-stakes, militaristic reality of the upscale dinner rush.
+> **Focus:** Extract the intense, class-based warfare between the Front-of-House (sommeliers, career waiters making massive tips) and the Back-of-House (exhausted line cooks, dishwashers). Detail the rampant substance abuse in the walk-ins used to survive the shift, the arrogance of the chefs, and the sheer physical weight of moving hundreds of pounds of meat and hot plates.
+> **Format:** A breakdown of the strict hierarchy/brigade slang, a map of the FOH vs. BOH financial friction, and 3 stories of catastrophic meltdowns during a VIP service.
+
+---
+
+### 9. The Tex-Barons (Tex-Mex / Late Night)
+> **Real-World Archetypes (Late 90s):** Taco Bell · Del Taco · On The Border
+> *Taco Bell = the dominant late-night empire, "Yo Quiero" as a cultural weapon, the 4th Meal as a political declaration. Del Taco = the West Coast challenger with a burger/taco hybrid menu that makes no apologies. On The Border = the sit-down Tex-Mex chain that thinks it's a cantina, a full bar, and a family restaurant simultaneously — the faction that cannot decide what it is.*
+
+> **Role:** Analyst of chaotic nightlife service and high-volume prep assembly.
+> **Task:** Extract the frantic, youth-driven reality of late-night cantinas and Tex-Mex assembly lines.
+> **Focus:** I need the exact dynamics of massive batch-prep (gallons of queso, endless avocados). Focus heavily on the cultural friction and how language barriers (Spanish, kitchen-Spanglish) are used actively as armor by the line cooks against white management or unruly bar crowds. Detail the chaos of the post-bar-closing rush.
+> **Format:** A list of specific Spanglish/kitchen codes used defensively, and 3 true tales of the chaotic, high-volume survival required during a festival or late-night rush.
+
+---
+
+### 10. The Coastal Fryers (Seafood / Docks)
+> **Real-World Archetypes (Late 90s):** Red Lobster · Long John Silver's · Captain D's
+> *Red Lobster = the aspirational seafood chain, Cheddar Bay Biscuits as a loyalty mechanism, the "endless shrimp" as a financial crisis disguised as a promotion. Long John Silver's = the fast-food seafood tier, the hush puppy as poverty comfort food, the faction operating at the bottom of the coastal hierarchy. Captain D's = the regional scrapper, dominant in the South, the seafood equivalent of a Church's Chicken — a faction for neighborhoods the others left behind.*
+
+> **Role:** Investigator of port logistics, cold storage, and seafood service.
+> **Task:** Analyze the texts for the specific environmental and labor miseries of seafood kitchens.
+> **Focus:** Extract the sensory details: the smells that never wash out of uniforms, the permanently wet and slippery floors, and the brutal cold-chain management (freezers and ice bins). Detail the "catch of the day" scams or quality degradation, and the hardened, isolated mentality of the workers who run the docks and the fryers.
+> **Format:** A sensory detail report (smells, sounds, physical discomforts) specific to seafood, and 3 anecdotes regarding inventory loss, freezer failures, or supplier friction.
