@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franchise Underworld | Virtual Studio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --glass-bg: rgba(22, 27, 34, 0.8);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --accent: #ff3366;
+            --text-main: #e6edf3;
+            --text-muted: #8b949e;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(255, 51, 102, 0.05), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(57, 255, 20, 0.05), transparent 25%);
+            color: var(--text-main);
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .sidebar {
+            width: 250px;
+            background: rgba(13, 17, 23, 0.95);
+            border-right: 1px solid var(--glass-border);
+            display: flex;
+            flex-direction: column;
+            padding: 20px 0;
+        }
+
+        .logo {
+            padding: 0 20px 20px 20px;
+            font-size: 1.2rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: white;
+            border-bottom: 1px solid var(--glass-border);
+            margin-bottom: 20px;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-item {
+            padding: 15px 20px;
+            cursor: pointer;
+            color: var(--text-muted);
+            font-weight: 600;
+            transition: 0.2s;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .nav-item:hover, .nav-item.active {
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            border-right: 3px solid var(--accent);
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.4s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            margin-top: 5px;
+        }
+
+        /* Card Grid */
+        .faction-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        .crew-card {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .crew-header {
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--glass-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .crew-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .crew-tier {
+            font-size: 0.7rem;
+            padding: 3px 8px;
+            border-radius: 12px;
+            background: rgba(255,255,255,0.1);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .tier-1 { background: rgba(255, 215, 0, 0.2); color: #ffd700; border: 1px solid rgba(255, 215, 0, 0.5); }
+        .tier-2 { background: rgba(57, 255, 20, 0.1); color: #39ff14; border: 1px solid rgba(57, 255, 20, 0.3); }
+        .tier-3 { background: rgba(255, 51, 102, 0.1); color: #ff3366; border: 1px solid rgba(255, 51, 102, 0.3); }
+        .tier-4 { background: rgba(136, 136, 136, 0.1); color: #888; border: 1px solid rgba(136, 136, 136, 0.3); }
+
+        .crew-body {
+            padding: 20px;
+            flex-grow: 1;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .data-row {
+            margin-bottom: 15px;
+        }
+
+        .data-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--accent);
+            font-weight: bold;
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .color-swatch {
+            display: inline-block;
+            width: 12px; height: 12px;
+            border-radius: 50%;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 5px;
+        }
+
+        .tag {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">HQ <span>STUDIO</span></div>
+            <div class="nav-item active" onclick="switchTab('visual-bible')">Visual Bible</div>
+            <div class="nav-item" onclick="switchTab('operations')">Operations Terminal</div>
+        </div>
+
+        <div class="main-content">
+            
+            <!-- VISUAL BIBLE TAB -->
+            <div id="visual-bible" class="tab-content active">
+                <div class="header">
+                    <h1>Master Art Directives</h1>
+                    <p>Production reference for lighting, set design, color locks, and lore.</p>
+                </div>
+
+                <div class="faction-grid">
+                    
+                    <!-- THE ARCHES CREW -->
+                    <div class="crew-card">
+                        <div class="crew-header">
+                            <h3 class="crew-title">The Arches Crew</h3>
+                            <span class="crew-tier tier-1">Tier 1 Elite</span>
+                        </div>
+                        <div class="crew-body">
+                            <div class="data-row">
+                                <span class="data-label">Vibe & Stereotype</span>
+                                Corporate, ruthless, highly organized mafia. They project a sterile, perfect image to hide a cutthroat reality.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Art Direction: Lighting & Background</span>
+                                Stark, clinical overhead fluorescents. Environments are perfectly sterile stainless steel kitchens contrasting heavily with bright, synthetic plastic seating areas (FOH vs BOH divide). Zero grime in the front, pure grease in the back.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Visual Locks</span>
+                                <span class="color-swatch" style="background:#8a0e2a;"></span><span class="color-swatch" style="background:#b59410;"></span> Oxblood & Tarnished Gold<br>
+                                <strong>Coin:</strong> 3 Overlapping Arches
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Lingo / Motifs</span>
+                                <div class="tags">
+                                    <span class="tag">"The Order"</span>
+                                    <span class="tag">"McDoom"</span>
+                                    <span class="tag">"Happy Meal" (an assassination)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THE CROWN SYNDICATE -->
+                    <div class="crew-card">
+                        <div class="crew-header">
+                            <h3 class="crew-title">The Crown Syndicate</h3>
+                            <span class="crew-tier tier-2">Tier 2 Royals</span>
+                        </div>
+                        <div class="crew-body">
+                            <div class="data-row">
+                                <span class="data-label">Vibe & Stereotype</span>
+                                Gritty, flame-scorched, aggressively expanding. Dethroned royalty looking to reclaim the top spot through brute force.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Art Direction: Lighting & Background</span>
+                                Dim, smoky interiors constantly filled with thick flame-broiler smoke. Blighted commercial zones, cracked asphalt, and flickering drive-thru menus. Heavy shadows.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Visual Locks</span>
+                                <span class="color-swatch" style="background:#1a2a40;"></span><span class="color-swatch" style="background:#cc5500;"></span> Midnight Blue & Burnt Ochre<br>
+                                <strong>Coin:</strong> A Jagged Crown
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Lingo / Motifs</span>
+                                <div class="tags">
+                                    <span class="tag">"Have it your way" (a threat)</span>
+                                    <span class="tag">"The King's Tax"</span>
+                                    <span class="tag">Paper Crowns</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THE FROSTBITE CREW -->
+                    <div class="crew-card">
+                        <div class="crew-header">
+                            <h3 class="crew-title">The Frostbite Crew</h3>
+                            <span class="crew-tier tier-2">Tier 2 Rogues</span>
+                        </div>
+                        <div class="crew-body">
+                            <div class="data-row">
+                                <span class="data-label">Vibe & Stereotype</span>
+                                Scrappy, cynical, defensively armored. "Never-frozen" purists who operate like a highly defensive rogue state.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Art Direction: Lighting & Background</span>
+                                Cold blue walk-in freezer lighting. Frost on the windows. Derelict freezer trucks used as mobile bases and heavily armored, fortified drive-thru windows.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Visual Locks</span>
+                                <span class="color-swatch" style="background:#c62828;"></span><span class="color-swatch" style="background:#87cefa;"></span> Crimson & Frost Blue<br>
+                                <strong>Coin:</strong> Crystallized Snowflake
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Lingo / Motifs</span>
+                                <div class="tags">
+                                    <span class="tag">"Square Up"</span>
+                                    <span class="tag">"Four Corners"</span>
+                                    <span class="tag">"Fresh Blood"</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THE GRAND SLAMMERS -->
+                    <div class="crew-card">
+                        <div class="crew-header">
+                            <h3 class="crew-title">The Grand Slammers</h3>
+                            <span class="crew-tier tier-3">Tier 3 Neutral</span>
+                        </div>
+                        <div class="crew-body">
+                            <div class="data-row">
+                                <span class="data-label">Vibe & Stereotype</span>
+                                Exhausted, loyal, completely numb to urban chaos. They run the 3 AM shift where rival bosses and hitmen eat in peace.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Art Direction: Lighting & Background</span>
+                                Yellow-tinted, buzzing, warm diner lighting. Formica tables, fake leather booths, heavy rain on plate-glass windows at 3 AM. A sanctuary vibe.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Visual Locks</span>
+                                <span class="color-swatch" style="background:#e1a900;"></span><span class="color-swatch" style="background:#a64b3b;"></span> Mustard Yellow & Rust<br>
+                                <strong>Coin:</strong> Bold Blocky '4'
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Lingo / Motifs</span>
+                                <div class="tags">
+                                    <span class="tag">"The 3 AM Shift"</span>
+                                    <span class="tag">"Slammed"</span>
+                                    <span class="tag">Heavy Under-Eye Bags</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THE GRID IRON -->
+                    <div class="crew-card">
+                        <div class="crew-header">
+                            <h3 class="crew-title">The Grid Iron</h3>
+                            <span class="crew-tier tier-3">Tier 3 Brawlers</span>
+                        </div>
+                        <div class="crew-body">
+                            <div class="data-row">
+                                <span class="data-label">Vibe & Stereotype</span>
+                                Frontline combatants, violent, hyper-alert. They don't run from fights, they start them behind the counter.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Art Direction: Lighting & Background</span>
+                                Harsh, flickering bare bulbs. Sticky floors, shattered glass, yellow caution tape aesthetics, and exposed brick. Action-oriented framing.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Visual Locks</span>
+                                <span class="color-swatch" style="background:#ffd700;"></span><span class="color-swatch" style="background:#111111;"></span> Hazard Yellow & Asphalt Black<br>
+                                <strong>Coin:</strong> Waffle Grid
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Lingo / Motifs</span>
+                                <div class="tags">
+                                    <span class="tag">"Scattered, Smothered, Covered" (A body)</span>
+                                    <span class="tag">"On the Grid"</span>
+                                    <span class="tag">Taped Fists</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THE HOUSE OF PLATES -->
+                    <div class="crew-card">
+                        <div class="crew-header">
+                            <h3 class="crew-title">The House of Plates</h3>
+                            <span class="crew-tier tier-2">Tier 2 Suburbia</span>
+                        </div>
+                        <div class="crew-body">
+                            <div class="data-row">
+                                <span class="data-label">Vibe & Stereotype</span>
+                                Medicated, unsettlingly synchronized, fake family-friendly. Hides an industrial batter-pumping operation behind a smile.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Art Direction: Lighting & Background</span>
+                                Overly bright, almost painfully sunny daylight or sickly sweet pastel interiors. Hides dark, massive, industrial steel batter vats in the deep background.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Visual Locks</span>
+                                <span class="color-swatch" style="background:#1e3d59;"></span><span class="color-swatch" style="background:#8b0000;"></span> Indigo & Crimson<br>
+                                <strong>Coin:</strong> Towering Stack of Plates
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Lingo / Motifs</span>
+                                <div class="tags">
+                                    <span class="tag">"Syrup Trap"</span>
+                                    <span class="tag">"Short Stack" (A quick kill)</span>
+                                    <span class="tag">Forced Smiles</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THE BLOOMIN' CARTEL -->
+                    <div class="crew-card">
+                        <div class="crew-header">
+                            <h3 class="crew-title">The Bloomin' Cartel</h3>
+                            <span class="crew-tier tier-1">Tier 1 Monopoly</span>
+                        </div>
+                        <div class="crew-body">
+                            <div class="data-row">
+                                <span class="data-label">Vibe & Stereotype</span>
+                                Faux-rugged luxury, strict militaristic kitchen brigades. The wealthy cartel that controls the premium meat supply.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Art Direction: Lighting & Background</span>
+                                Dim amber pendant lighting, polished mahogany booths, taxidermy mounts, and heavy, warm shadows. Looks expensive but dangerous.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Visual Locks</span>
+                                <span class="color-swatch" style="background:#3d1c00;"></span><span class="color-swatch" style="background:#1a4d2e;"></span> Mahogany & Hunter Green<br>
+                                <strong>Coin:</strong> Concentric Onion Rings
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Lingo / Motifs</span>
+                                <div class="tags">
+                                    <span class="tag">"Bushwhacked"</span>
+                                    <span class="tag">"The Outback"</span>
+                                    <span class="tag">Excessive Flair</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THE ROADHOUSE RIDERS -->
+                    <div class="crew-card">
+                        <div class="crew-header">
+                            <h3 class="crew-title">The Roadhouse Riders</h3>
+                            <span class="crew-tier tier-2">Tier 2 Supply</span>
+                        </div>
+                        <div class="crew-body">
+                            <div class="data-row">
+                                <span class="data-label">Vibe & Stereotype</span>
+                                Rowdy, loud, heavy denim and boots. They control the supply routes and enforce loyalty with mandatory rituals.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Art Direction: Lighting & Background</span>
+                                Air choked with peanut dust. Neon beer signs cutting through the haze, rough-hewn wood, and sawdust-covered floors.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Visual Locks</span>
+                                <span class="color-swatch" style="background:#8b0000;"></span><span class="color-swatch" style="background:#8b4513;"></span> Barn Red & Saddle Brown<br>
+                                <strong>Coin:</strong> Branded Crossway 'T'
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Lingo / Motifs</span>
+                                <div class="tags">
+                                    <span class="tag">"Line Dance" (A coordinated hit)</span>
+                                    <span class="tag">"Riding the Route"</span>
+                                    <span class="tag">Brass Knuckle Buckles</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THE FALLEN STARS -->
+                    <div class="crew-card">
+                        <div class="crew-header">
+                            <h3 class="crew-title">The Fallen Stars</h3>
+                            <span class="crew-tier tier-4">Tier 4 Mercs</span>
+                        </div>
+                        <div class="crew-body">
+                            <div class="data-row">
+                                <span class="data-label">Vibe & Stereotype</span>
+                                Washed up, faded glory, black-market operators. They lost the steakhouse war and now survive on the fringes.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Art Direction: Lighting & Background</span>
+                                Skeletal remains of opulent 90s steakhouses. Broken neon, ripped leather booths, heavy dark shadows hiding illicit deals.
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Visual Locks</span>
+                                <span class="color-swatch" style="background:#5a7eab;"></span><span class="color-swatch" style="background:#a9a9a9;"></span> Faded Denim & Tarnished Silver<br>
+                                <strong>Coin:</strong> Single 5-Pointed Star
+                            </div>
+                            <div class="data-row">
+                                <span class="data-label">Lingo / Motifs</span>
+                                <div class="tags">
+                                    <span class="tag">"Faded"</span>
+                                    <span class="tag">"Tarnished"</span>
+                                    <span class="tag">"Star-crossed"</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- OPERATIONS TAB -->
+            <div id="operations" class="tab-content">
+                <div class="header">
+                    <h1>Operations Terminal</h1>
+                    <p>Live stream of autonomous agent directives.</p>
+                </div>
+                <div style="background: rgba(0,0,0,0.5); padding: 20px; border-radius: 8px; border: 1px solid var(--glass-border); font-family: monospace; height: 400px; color: var(--neon-green);">
+                    > SYSTEM ALIVE<br>
+                    > FETCHING ART DIRECTIVES... [OK]<br>
+                    > COIN MECHANIC INTEGRATED... [OK]<br>
+                    > WAITING FOR NEXT SPRINT COMMAND...
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+            
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
