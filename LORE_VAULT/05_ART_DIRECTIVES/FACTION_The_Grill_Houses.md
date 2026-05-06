@@ -19,7 +19,7 @@
 * **Vector Color Lock:** **Midnight Blue & Burnt Ochre**
 * **Uniforms:** Paper crowns worn unironically as gang markers. Greasy, flame-scorched aprons. 
 
-### The Braided Order (Archetype: Wendy's)
+### The Frostbite Crew (Archetype: Wendy's)
 * **The Vibe:** The scrappy, cynical challenger. They refuse to cut corners (square patties as a political statement). They are known for brutal PR and a fiercely loyal, slightly unhinged workforce.
 * **Vector Color Lock:** **Crimson & Frost Blue**
 * **Uniforms:** Retro-fitted 80s pinstripes, heavy frost-blue winter jackets (walk-in freezer gear worn as armor).
@@ -29,7 +29,7 @@
 ## 2. INTERNAL POLITICS (The Civil Wars)
 
 * **The Throne War:** The Arches and The Crown Syndicate have been in a cold war for decades. The Arches control the legislation; The Crown controls the suburban sprawl. Skirmishes at shared intersections are common.
-* **The Square Doctrine:** The Braided Order considers both the Arches and the Crown to be compromised by frozen logistics. They act as a rogue state, occasionally teaming up with the Crown just to hurt the Arches.
+* **The Square Doctrine:** The Frostbite Crew considers both the Arches and the Crown to be compromised by frozen logistics. They act as a rogue state, occasionally teaming up with the Crown just to hurt the Arches.
 
 ---
 

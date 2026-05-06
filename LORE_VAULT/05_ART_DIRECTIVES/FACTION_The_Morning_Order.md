@@ -19,7 +19,7 @@
 * **Vector Color Lock:** **Hazard Yellow & Asphalt Black**
 * **Uniforms:** Yellow button-downs, paper diner hats. Hands wrapped in athletic tape under latex gloves.
 
-### The Syndicate of the Cake (Archetype: IHOP)
+### The House of Plates (Archetype: IHOP)
 * **The Vibe:** The suburban illusion. They present a family-friendly facade of variety (countless syrups, endless pancakes) that hides an industrial batter-pumping operation. 
 * **Vector Color Lock:** **Indigo & Crimson**
 * **Uniforms:** Sharp blue aprons, forced smiles, a heavily medicated workforce moving in unsettling synchronization.
@@ -29,7 +29,7 @@
 ## 2. INTERNAL POLITICS (The Civil Wars)
 
 * **The Night Shift Brotherhood:** Unlike other factions, The Morning Order is deeply loyal to itself. The trauma of the 3 AM shift bonds them. The Grand Slammers and the Grid Iron share a deep, unspoken respect.
-* **The Suburban Schism:** The Syndicate of the Cake is viewed with suspicion by the others. They operate mostly in daylight and cater to the Sunday brunch crowd, which the night-shift lifers view as soft and compromised.
+* **The Suburban Schism:** The House of Plates is viewed with suspicion by the others. They operate mostly in daylight and cater to the Sunday brunch crowd, which the night-shift lifers view as soft and compromised.
 
 ---
 
