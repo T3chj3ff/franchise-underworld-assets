@@ -43,8 +43,8 @@ You can copy and paste these directly into NotebookLM, ChatGPT, or your deep-res
 ---
 
 ### 4. The Cream Parlors (Dessert / Ice Cream)
-> **Real-World Archetypes (Late 90s):** Dairy Queen · Baskin-Robbins · Carvel
-> *Dairy Queen = the dominant roadside empire with its Blizzard as the product of the decade. Baskin-Robbins = the 31-flavors mall presence, the birthday cake faction. Carvel = the regional Eastern institution with soft-serve as sacred text and Tom Carvel's voice on every radio ad.*
+> **Real-World Archetypes (Late 90s):** Dairy Queen · Baskin-Robbins · Cold Stone Creamery
+> *Dairy Queen = the dominant roadside empire with its Blizzard as the product of the decade. Baskin-Robbins = the 31-flavors mall presence, the birthday cake faction. Cold Stone Creamery = the performance ice cream chain where scooping becomes theatrical labor — the singing, the mixing on the stone, the customer staring while you work — a faction built on forced joyfulness masking a brutal physical job.*
 
 > **Role:** Researcher analyzing suburban service dynamics and pristine corporate facades.
 > **Task:** Analyze the provided texts to expose the contrast between the wholesome, family-friendly front of an ice cream parlor and the sticky, miserable reality of the back.
@@ -54,8 +54,8 @@ You can copy and paste these directly into NotebookLM, ChatGPT, or your deep-res
 ---
 
 ### 5. The Brew Councils (Coffee / Cafe)
-> **Real-World Archetypes (Late 90s):** Starbucks · Dunkin' Donuts · Gloria Jean's Coffees
-> *Starbucks = the expanding empire that changed the language (venti, grande — a new vocabulary as a power move). Dunkin' = the working-class counter-culture, the "regulah" as identity. Gloria Jean's = the mall-court coffeehouses that Starbucks buried — the faction that lost the franchise war.*
+> **Real-World Archetypes (Late 90s):** Starbucks · Dunkin' Donuts · Dutch Bros
+> *Starbucks = the expanding empire that changed the language (venti, grande — a new vocabulary as a power move). Dunkin' = the working-class counter-culture, the "regulah" as identity. Dutch Bros = the Pacific Northwest drive-through cult founded 1992 — a pushcart operation that became a brotherhood, fiercely regional, operating on energy drink loyalty and employee enthusiasm that feels more like a religion than a job. The faction that hasn't gone national yet but everyone who knows them is a lifer.*
 
 > **Role:** Corporate data and morning-commute labor analyst.
 > **Task:** Extract the highly caffeinated, high-stress reality of corporate coffeehouses.
@@ -76,8 +76,8 @@ You can copy and paste these directly into NotebookLM, ChatGPT, or your deep-res
 ---
 
 ### 7. The Fresh Syndicate (Health / Salad / Wraps)
-> **Real-World Archetypes (Late 90s):** Subway · Quiznos · Schlotzsky's
-> *Subway = the "eat fresh" propaganda machine that made a sandwich assembly line feel like a wellness choice (the Jared era begins 2000 — right on the cusp, perfect for Lumenridge lore). Quiznos = the toasted-sub challenger with superior product and inferior infrastructure. Schlotzsky's = the regional Southwestern chain that believed in its own mythology a little too hard.*
+> **Real-World Archetypes (Late 90s):** Subway · Jimmy John's · Jersey Mike's
+> *Subway = the "eat fresh" propaganda machine that turned sandwich assembly into a wellness ideology (the Jared campaign launches 2000 — right on the cusp, the Fresh Syndicate is the faction whose propaganda is just beginning to work). Jimmy John's = the "Freaky Fast" empire built on speed-as-law delivery culture — the sandwich equivalent of Domino's 30-minutes-or-free, with the same body-count energy. Jersey Mike's = the authenticity faction, cold cuts sliced to order, "a sub above," a chain that genuinely believes in its own product quality in a world of corporate indifference — which makes them dangerous. Reddit lore source: r/jimmyjohns is a deep well of delivery horror and speed-pressure trauma.*
 
 > **Role:** Investigator of corporate wellness facades and prep-kitchen labor.
 > **Task:** Expose the toxic reality hidden behind the "clean eating" and wellness branding.
