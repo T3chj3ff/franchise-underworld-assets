@@ -63,6 +63,43 @@ The factions don't just *reference* these franchises. They **are** them — with
 
 ---
 
+## THE COLOR THEORY (NOIR TRANSLATION)
+
+To ensure readers have that "oh snap" moment of recognition, the color palettes of these factions must subtly echo their real-world 90s counterparts—but run through a dark, gritty, industrial noir filter. We don't use bright corporate primary colors; we use their bruised, oxidized equivalents.
+
+### 🍔 The Grill Houses (Burger Empires)
+- **The Arches Crew (McDonald's):** **Oxblood & Tarnished Gold** *(Instead of bright red and yellow, it's dried-blood red and oxidized brass.)*
+- **The Crown Syndicate (Burger King):** **Midnight Blue & Burnt Ochre**
+- **The Braided Order (Wendy's):** **Crimson & Frost Blue**
+
+### 🍗 The Fried Confederacy (Chicken)
+- **The Colonials (KFC):** **Bone White & Crimson** *(Crisp, militaristic, patriarchal.)*
+- **The Southern Insurgency (Popeyes):** **Rust Orange & Brick Red** *(Deeper, hotter, more chaotic.)*
+- **The Fundamentalists (Raising Cane's):** **Oxblood & Pale Gold** *(Strict doctrinal purity to one product.)*
+- **The Diaspora Network (Jollibee):** **Scarlet & Marigold** *(Fiercely guarded community loyalty.)*
+
+### ☕ The Morning Order (24/7 Diners)
+- **The Grand Slammers (Denny's):** **Mustard Yellow & Rust** *(The color of old laminated menus.)*
+- **The Grid Iron (Waffle House):** **Hazard Yellow & Asphalt Black** *(Reflective and deeply entrenched in the pavement.)*
+- **The Syndicate of the Cake (IHOP):** **Indigo & Crimson**
+
+### 🍕 The Slice Syndicates (Pizza Cartels)
+- **The 30-Minute Line (Domino's):** **Cobalt Blue & Crimson**
+- **The Hut Loyalists (Pizza Hut):** **Ash Black & Roof Red**
+- **The Hot-N-Ready (Little Caesars):** **Toxic Orange & Toga White**
+
+### ☕ The Brew Councils (Coffee)
+- **The Sirens (Starbucks):** **Forest Green & Copper** *(The color of tarnished pennies and corporate expansion.)*
+- **The Regulhas (Dunkin'):** **Faded Magenta & Safety Orange** *(Working-class high-visibility gear.)*
+- **The Windmills (Dutch Bros):** **Electric Blue & Chrome**
+
+### 🥗 The Fresh Syndicate (Health / Subs)
+- **The Underground (Subway):** **Moss Green & Hazard Yellow**
+- **The Freaky Fast (Jimmy John's):** **Vantablack & Crimson**
+- **The Authentics (Jersey Mike's):** **Navy Blue & Cardinal Red**
+
+---
+
 ## VISUAL LANGUAGE IMPLICATIONS
 
 Because the setting is **1997 American franchise**, the visual language must reflect:

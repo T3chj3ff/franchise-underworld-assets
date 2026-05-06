@@ -65,8 +65,8 @@ You can copy and paste these directly into NotebookLM, ChatGPT, or your deep-res
 ---
 
 ### 6. The Fried Confederacy (Chicken / Southern)
-> **Real-World Archetypes (Late 90s):** KFC · Popeyes · Church's Chicken
-> *KFC = the Colonel as a religious patriarch, the Original Recipe as scripture. Popeyes = the Southern challenger with a distinct Cajun identity and a kitchen culture that runs deeper and hotter. Church's Chicken = the third-tier scrapper, operating in the neighborhoods no one else would touch, the forgotten faction.*
+> **Real-World Archetypes (Late 90s):** KFC · Popeyes · Raising Cane's · Jollibee
+> *KFC = the Colonial Patriarch (Color: Bone White & Crimson). Popeyes = the Southern Insurgent with a deeper, hotter kitchen culture (Color: Rust Orange & Brick). Raising Cane's = the Fundamentalist sect with absolute doctrinal purity to one product (Color: Oxblood & Pale Gold). Jollibee = the Diaspora Network, operating on fierce community loyalty, untouchable by the larger empires (Color: Scarlet & Marigold).*
 
 > **Role:** Cultural archivist specializing in Southern kitchen dynamics and fryer lines.
 > **Task:** Extract the visceral, high-heat reality of working a dedicated fried chicken kitchen.
