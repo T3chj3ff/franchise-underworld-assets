@@ -13,16 +13,19 @@
 * **The Vibe:** The flagship of the insomniac public. A chaotic neutral zone where high-ranking gang members and exhausted nurses eat in adjacent booths.
 * **Vector Color Lock:** **Mustard Yellow & Rust** *(The color of old laminated menus).*
 * **Uniforms:** Brown slacks, mustard aprons, nametags that hide real identities. Heavy under-eye bags are universal.
+* **Medallion Icon:** A bold, blocky number "4" (Representing the Grand Slam).
 
 ### The Grid Iron (Archetype: Waffle House)
 * **The Vibe:** The Southern institution that never closes. They are the frontline infantry of the Morning Order. If the Grid Iron closes its doors, it means the city has fallen. They settle disputes with violence behind the counter.
 * **Vector Color Lock:** **Hazard Yellow & Asphalt Black**
 * **Uniforms:** Yellow button-downs, paper diner hats. Hands wrapped in athletic tape under latex gloves.
+* **Medallion Icon:** A tight, gridded waffle pattern.
 
 ### The House of Plates (Archetype: IHOP)
 * **The Vibe:** The suburban illusion. They present a family-friendly facade of variety (countless syrups, endless pancakes) that hides an industrial batter-pumping operation. 
 * **Vector Color Lock:** **Indigo & Crimson**
 * **Uniforms:** Sharp blue aprons, forced smiles, a heavily medicated workforce moving in unsettling synchronization.
+* **Medallion Icon:** A towering, uneven stack of plates.
 
 ---
 

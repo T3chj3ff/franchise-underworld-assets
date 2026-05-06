@@ -13,16 +13,19 @@
 * **The Vibe:** The ruling class. Corporate, clean on the outside, ruthless on the inside. They set the laws of the fast-food tier. 
 * **Vector Color Lock:** **Oxblood & Tarnished Gold**
 * **Uniforms:** Crisp, synthetic polo shirts. Earpieces for drive-thru coordination that double as tactical comms. Plastic smiles.
+* **Medallion Icon:** 3 overlapping arches (Clean, corporate line drawing).
 
 ### The Crown Syndicate (Archetype: Burger King)
 * **The Vibe:** The eternal rival. Looser corporate discipline, grittier outposts. They constantly try to usurp the Arches through aggressive territory expansion and flame-broiled intimidation.
 * **Vector Color Lock:** **Midnight Blue & Burnt Ochre**
 * **Uniforms:** Paper crowns worn unironically as gang markers. Greasy, flame-scorched aprons. 
+* **Medallion Icon:** A jagged crown (Rough, scratched line drawing). 
 
 ### The Frostbite Crew (Archetype: Wendy's)
 * **The Vibe:** The scrappy, cynical challenger. They refuse to cut corners (square patties as a political statement). They are known for brutal PR and a fiercely loyal, slightly unhinged workforce.
 * **Vector Color Lock:** **Crimson & Frost Blue**
 * **Uniforms:** Retro-fitted 80s pinstripes, heavy frost-blue winter jackets (walk-in freezer gear worn as armor).
+* **Medallion Icon:** A crystallized snowflake (Sharp, geometric line drawing).
 
 ---
 

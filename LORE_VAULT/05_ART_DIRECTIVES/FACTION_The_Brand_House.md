@@ -13,16 +13,19 @@
 * **The Vibe:** "No Rules, Just Right" is their legal doctrine. They project an invented, rugged mythology (Australian outback) to justify their brutal monopoly on high-margin meats and imported spices.
 * **Vector Color Lock:** **Mahogany & Hunter Green**
 * **Uniforms:** Black chef coats in the BOH; FOH wears rugged bush-shirts with excessive, mandatory flair that signifies rank and kill-count.
+* **Medallion Icon:** Multiple concentric rings resembling a cross-sectioned blooming onion.
 
 ### The Roadhouse Riders (Archetype: Texas Roadhouse)
 * **The Vibe:** Blue-collar aspiration. They are loud, rowdy, and heavily armed. They enforce loyalty through mandatory line-dancing rituals and control the peanut-dust-choked supply routes.
 * **Vector Color Lock:** **Barn Red & Saddle Brown**
 * **Uniforms:** Denim, boots, and massive belt buckles that double as brass knuckles. BOH is soaked in meat sweat and steak seasoning.
+* **Medallion Icon:** A stylized, branded crossway 'T'.
 
 ### The Fallen Stars (Archetype: Lone Star Steakhouse)
 * **The Vibe:** The faction in decline. They once ruled the steakhouse tier but lost the turf war to the Bloomin' Cartel. Now they operate as desperate mercenaries and black-market meat smugglers.
 * **Vector Color Lock:** **Faded Denim & Tarnished Silver**
 * **Uniforms:** Ragged remnants of their former glory. Cracked leather vests, tarnished star badges.
+* **Medallion Icon:** A single, five-pointed star.
 
 ---
 
